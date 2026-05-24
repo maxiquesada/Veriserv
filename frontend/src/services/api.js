@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://veriserv-production.up.railway.app',
+  baseURL: import.meta.env.VITE_API_URL || 'https://veriserv-backend.onrender.com',
   timeout: 15000,
 })
 
